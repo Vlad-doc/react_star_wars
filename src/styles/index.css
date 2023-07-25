@@ -1,11 +1,14 @@
 :root {
   --color-dark-gray: #10100e;
+  --color-yellow: #ffff00;
   --color-dark-white: #fff;
   --color-dark-black: #000;
 
   --spacing-medium: 20px;
 
   --font-family-main: sans-serif;
+
+  --fonts-size-header: 26px;
 
   --border-radius-small: 3px;
 }
