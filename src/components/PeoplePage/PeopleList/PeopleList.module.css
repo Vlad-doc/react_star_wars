@@ -10,14 +10,14 @@
   width: 190px;
   margin: var(--spacing-medium);
   border-radius: var(--border-radius-small);
-  background: var(--color-dark-white);
+  background: var(--color-white);
   cursor: pointer;
   text-align: center;
 }
 
 .list__item a {
   text-decoration: none;
-  color: var(--color-dark-black);
+  color: var(--color-black);
 }
 
 .person__photo {

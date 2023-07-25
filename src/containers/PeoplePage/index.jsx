@@ -4,7 +4,7 @@ import PeopleList from '@components/PeoplePage/PeopleList'
 import { getApiResource } from '@utils/network'
 import { API_PEOPLE, HTTPS } from '@constants/api'
 import { getPeopleId, getPeopleImage } from '@services/getPeopleData'
-import withApiError from '../../hoc/withApiError'
+import withApiError from '@hoc/withApiError'
 
 import styles from './PeoplePage.module.css'
 
@@ -33,6 +33,9 @@ const PeoplePage = ({ setApiError }) => {
 
   return (
     <>
+      <div className='header__text'>
+        Navigation
+      </div>
       {
         people && <PeopleList people={people} />
       }

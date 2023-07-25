@@ -8,6 +8,7 @@ module.exports = function override(config, env) {
     '@services': 'src/services',
     '@utils': 'src/utils',
     '@containers': 'src/containers',
+    '@routes': 'src/routes',
   })(config)
 
   return config;
