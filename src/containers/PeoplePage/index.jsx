@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 
-import PeopleList from '../../components/PeoplePage/PeopleList'
-import { getApiResource } from '../../utils/network'
-import { API_PEOPLE, HTTPS } from '../../constants/api'
-import { getPeopleId, getPeopleImage } from '../../services/getPeopleData'
+import PeopleList from '@components/PeoplePage/PeopleList'
+import { getApiResource } from '@utils/network'
+import { API_PEOPLE, HTTPS } from '@constants/api'
+import { getPeopleId, getPeopleImage } from '@services/getPeopleData'
 import withApiError from '../../hoc/withApiError'
 
 import styles from './PeoplePage.module.css'
